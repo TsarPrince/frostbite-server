@@ -3,7 +3,7 @@ const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://frostbite-iiitl.herokuapp.com'
+    origin: 'https://frostbite-two.vercel.app'
   }
 });
 const port = process.env.PORT || 8722;
